@@ -2,6 +2,13 @@ body{
   background: #d3d3d330;
 }
 
+/*RIGA A*/
+.prodotto{
+  display: inline-block;
+  margin: 2px;
+}
+
+/* PRODOTTO 1*/
 .container{
   position: relative;
   width: 100%;
@@ -43,5 +50,20 @@ body{
 }
 
 #container_A1:hover + #cuore_A1{
+  display: block;
+}
+
+/*PRODOTTO 2*/
+#sconto_A2{
+  background: red;
+}
+
+#container_A2:hover + #cuore_A2{
+  display: block;
+}
+
+/*PRODOTTO 3*/
+
+#container_A3:hover + #cuore_A3{
   display: block;
 }

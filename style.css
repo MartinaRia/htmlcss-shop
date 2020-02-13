@@ -53,8 +53,12 @@ body{
   display: block;
 }
 
+#container_B1:hover + #cuore_B1{
+  display: block;
+}
+
 /*PRODOTTO 2*/
-#sconto_A2{
+#sconto_A2, #sconto_B2{
   background: red;
 }
 
@@ -62,8 +66,16 @@ body{
   display: block;
 }
 
-/*PRODOTTO 3*/
+#container_B2:hover + #cuore_B2{
+  display: block;
+}
 
+
+/*PRODOTTO 3*/
 #container_A3:hover + #cuore_A3{
+  display: block;
+}
+
+#container_B3:hover + #cuore_B3{
   display: block;
 }

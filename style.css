@@ -2,6 +2,7 @@ body{
   background: #d3d3d330;
 }
 
+
 /*RIGA A*/
 .prodotto{
   display: inline-block;
@@ -22,6 +23,8 @@ body{
   top: 5px;
   left: 50%;
   transform: translate(-50%, 0%);
+  width: auto;
+  height: 90%;
 }
 
 .sconto{
@@ -39,6 +42,7 @@ body{
   position: relative;
   width: 30%;
   height: 300px;
+  cursor: pointer;
 }
 
 .cuore{
@@ -49,33 +53,11 @@ body{
   display: none;
 }
 
-#container_A1:hover + #cuore_A1{
+.prodotto:hover .cuore{
   display: block;
 }
 
-#container_B1:hover + #cuore_B1{
-  display: block;
-}
-
-/*PRODOTTO 2*/
+/*SCONTO 2*/
 #sconto_A2, #sconto_B2{
   background: red;
-}
-
-#container_A2:hover + #cuore_A2{
-  display: block;
-}
-
-#container_B2:hover + #cuore_B2{
-  display: block;
-}
-
-
-/*PRODOTTO 3*/
-#container_A3:hover + #cuore_A3{
-  display: block;
-}
-
-#container_B3:hover + #cuore_B3{
-  display: block;
 }
